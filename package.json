@@ -5,7 +5,9 @@
   "scripts": {
     "images": "node scripts/optimize-images.mjs",
     "start": "node scripts/serve.mjs",
-    "news": "node scripts/build-news.mjs"
+    "news": "node scripts/build-news.mjs",
+    "stamp": "node scripts/stamp-assets.mjs",
+    "build": "npm run images && npm run news && npm run stamp"
   },
   "keywords": [],
   "author": "",
