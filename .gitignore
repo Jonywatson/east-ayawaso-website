@@ -1,0 +1,7 @@
+node_modules/
+
+# Original photos stay on this computer (unused flyers, full-size files).
+# Only the optimised images in site/images/ are published.
+photos/*.jpg
+photos/*.jpeg
+photos/*.png

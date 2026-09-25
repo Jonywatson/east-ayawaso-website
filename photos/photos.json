@@ -1,0 +1,55 @@
+[
+  {
+    "id": "hero-portrait",
+    "file": "thank-you-banner.jpg",
+    "crop": { "left": 730, "top": 60, "width": 380, "height": 640 },
+    "alt": "Portrait of Hon. Ahmed Baba Jamal in a white smock and embroidered cap",
+    "gallery": false
+  },
+  {
+    "id": "portrait-suit",
+    "file": "portrait-suit.jpg",
+    "crop": { "left": 0, "top": 0, "width": 680, "height": 960 },
+    "alt": "Formal portrait of Hon. Ahmed Baba Jamal in a dark suit and blue tie",
+    "caption": "Official portrait [confirm or replace with a recent photo]",
+    "gallery": true
+  },
+  {
+    "id": "parliament-handshake",
+    "file": "parliament-handshake.jpg",
+    "alt": "The MP shaking hands with a colleague in the Chamber of Parliament",
+    "caption": "In the Chamber of Parliament [add occasion and date]",
+    "credit": "Parliament of Ghana",
+    "gallery": true
+  },
+  {
+    "id": "presentation-handshake",
+    "file": "presentation-handshake.jpg",
+    "alt": "The MP receiving a scroll in the national colours during a handshake",
+    "caption": "[Add who, occasion and date]",
+    "gallery": true
+  },
+  {
+    "id": "maulid-1",
+    "file": "maulid-1.jpg",
+    "alt": "The MP in conversation with guests on stage at the Annual National Maulid",
+    "caption": "Annual National Maulid [add date and venue]",
+    "credit": "Hafiz TV",
+    "gallery": true
+  },
+  {
+    "id": "maulid-2",
+    "file": "maulid-2.jpg",
+    "alt": "The MP seated with dignitaries at the Annual National Maulid",
+    "caption": "With dignitaries at the Annual National Maulid [add date]",
+    "credit": "Hafiz TV",
+    "gallery": true
+  },
+  {
+    "id": "thank-you-banner",
+    "file": "thank-you-banner.jpg",
+    "alt": "Thank-you message to the people of Ayawaso and Ghana, with the motto Better Together",
+    "caption": "A thank-you message to the constituency",
+    "gallery": true
+  }
+]
