@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "office-opening-hours",
+    "date": "2026-09-25",
+    "category": "Announcement",
+    "pinned": true,
+    "sample": true,
+    "title": "Constituency office opening hours",
+    "summary": "The constituency office is open to all residents of East Ayawaso. [Sample: replace with the real days, times and address.]",
+    "body": [
+      "The constituency office is open to every resident of East Ayawaso who needs help, wants to raise an issue in their community, or would like to share an idea.",
+      "Opening hours: [days and times]. Address: [office address].",
+      "You can also send a message at any time through the Contact page, and the office will respond as soon as possible."
+    ]
+  },
+  {
+    "slug": "welcome-to-the-new-website",
+    "date": "2026-09-24",
+    "category": "News",
+    "sample": true,
+    "image": "thank-you-banner",
+    "title": "Welcome to the new constituency website",
+    "summary": "A new home for news, photos and direct contact with the MP's office. [Sample: for the office to approve or replace.]",
+    "body": [
+      "This website gives the people of East Ayawaso one trusted place to follow the MP's work, see what is happening across the constituency, and reach the office directly.",
+      "News and announcements will be posted here regularly. Please share them with your family, friends and neighbours."
+    ]
+  },
+  {
+    "slug": "town-hall-meeting",
+    "date": "2026-09-20",
+    "category": "Event",
+    "sample": true,
+    "title": "Town hall meeting: [community], [date]",
+    "summary": "Come and share your views with the MP. [Sample: shows how an event notice will look.]",
+    "body": [
+      "The MP invites residents of [community] to a town hall meeting on [date] at [time], at [venue].",
+      "Everyone is welcome. Come with your questions, concerns and ideas for the development of the constituency."
+    ]
+  }
+]

@@ -48,4 +48,23 @@ if (form) {
   });
 }
 
+// News share buttons: WhatsApp, Facebook and copy link, using this page's address
+document.querySelectorAll('.share').forEach(box => {
+  const url = location.href.split('#')[0];
+  const text = `${box.dataset.shareTitle} ${url}`;
+  box.querySelector('[data-share="whatsapp"]').href = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  box.querySelector('[data-share="facebook"]').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+  box.querySelectorAll('a[data-share]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+  const copy = box.querySelector('[data-share="copy"]');
+  copy.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+      copy.textContent = 'Link copied';
+    } catch {
+      copy.textContent = 'Copy failed';
+    }
+    setTimeout(() => { copy.textContent = 'Copy link'; }, 2000);
+  });
+});
+
 document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
